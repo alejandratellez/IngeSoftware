@@ -15,6 +15,22 @@ public class Personaje {
 
 	private Map<Personaje, Integer> personajeDaño = new HashMap<>();
 
+	public Map<Personaje, Integer> getPersonajeDaño() {
+		return personajeDaño;
+	}
+
+	public void setPersonajeDaño(Map<Personaje, Integer> personajeDaño) {
+		this.personajeDaño = personajeDaño;
+	}
+
+	public Integer getEscudo() {
+		return escudo;
+	}
+
+	public void setEscudo(Integer escudo) {
+		this.escudo = escudo;
+	}
+
 	public Integer getVida() {
 		return vida;
 	}
